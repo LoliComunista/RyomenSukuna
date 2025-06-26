@@ -23,7 +23,8 @@ header img {
 }
 
 
-header h1, header h2{
+header h1,
+header h2 {
     font-family: Jujutsu\ Kaisen;
     color: #d4ac0d;
 }
@@ -151,10 +152,10 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 10px;
     width: 700px;
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
 }
 
 #dismantelvariant img {
@@ -371,7 +372,7 @@ footer {
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
- border-radius: 15%;
+    border-radius: 15%;
     background-color: rgb(88, 80, 80);
 }
 
@@ -379,7 +380,8 @@ footer img {
     width: 45px;
     margin-right: 1rem;
 }
-footer p{
+
+footer p {
     align-items: last baseline;
 }
 
