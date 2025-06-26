@@ -1,0 +1,419 @@
+@font-face {
+    font-family: jujutsu-kaisen;
+    src: url(./font/jujutsu-kaisen/Jujutsu\ Kaisen.ttf);
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 15px solid black;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(68, 5, 5);
+}
+
+header img {
+    border-radius: 70%;
+}
+
+
+header h1, header h2{
+    font-family: Jujutsu\ Kaisen;
+    color: #d4ac0d;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5%;
+    background-color: #800000;
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+header h1 h2 {
+
+    font-size: 2rem;
+    position: absolute;
+}
+
+nav ul {
+    list-style: none;
+    display: contents;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15PX;
+    border-radius: 15px 0px;
+}
+
+
+#Historia {
+    position: relative;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 0PX;
+    border-radius: 10px;
+    background-color: #5f5c5c;
+
+}
+
+
+
+#Habilidades {
+    border: 1px solid red;
+
+    .shrine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 700px;
+        margin: 20px;
+        padding: 0px;
+
+    }
+}
+
+#santuario img {
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#Habilidades h1 {
+    color: white;
+}
+
+#Habilidades {
+
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #140d0d69;
+}
+
+#santuario {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+#dismantle img {
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#dismantle {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+#dismantle p {
+    align-items: center;
+}
+
+.variantesdismantelar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dismantelvariant img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#dismantlevariant {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+.clivar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#cleave img {
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+#cleave {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+.clivarvariant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#cleavevariant img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#cleavevariant {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #5f5c5c;
+}
+
+.fuga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#fuuga {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+.dominio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#expansaodedominio {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+#Receptaculos h1,
+p {
+    color: white;
+}
+
+#Receptaculos {
+    border: 1px solid red;
+}
+
+#Receptaculos {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #140d0d69;
+}
+
+
+.heian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#sukunaoriginal {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #5f5c5c;
+}
+
+.yujiitadori {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#itadori {
+    padding: 10px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+}
+
+.meguna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#megumi {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #5f5c5c;
+    padding: 10px;
+}
+
+#Fim {
+    border: 1px solid red;
+}
+
+.morte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Fim {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #5f5c5c;
+}
+
+footer {
+    border: 1px solid black;
+    align-items: center;
+    height: 10px;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+ border-radius: 15%;
+    background-color: rgb(88, 80, 80);
+}
+
+footer img {
+    width: 45px;
+    margin-right: 1rem;
+}
+footer p{
+    align-items: last baseline;
+}
+
+#form-avaliacao {
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 400px;
+}
+
+#form-avaliacao input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+}
+
+#form-avaliacao button {
+
+
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: #f98585;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#form-avaliacao button:hover {
+    background: #ffb3b3;
+}
